@@ -2,7 +2,7 @@
   if int <= 1
     return false
   end
-  for divisor in 2..(int - 1)
+  for divisor in 2..int
    if (int % divisor) == 0
     return false
    end
