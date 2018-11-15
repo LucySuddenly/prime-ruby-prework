@@ -1,4 +1,4 @@
- def is_prime(int)
+ def prime?(int)
   for dividisor in 2..(int - 1)
    if (int % divisor) == 0
     return false
